@@ -1,0 +1,134 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFF;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #FFFFFF;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index:1;
+}
+
+.postbox{
+    width: 80%;
+    margin-top: 70px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.post{
+    width:100%;
+    height:40vw;
+    margin-top:60px;
+    z-index:-1;
+}
+
+.postpic{
+    width:55%;
+    height:100%;
+    display:inline-block;
+    overflow: hidden;
+    position: relative;
+}
+.photo{
+    left: -100%;
+    right: -100%;
+    top: -100%;
+    bottom: -100%;
+    margin: auto;
+    position: absolute;
+}
+    
+    
+    
+.postdescription{
+    width:43.5%;
+    height:100%;
+    background-color:white;
+    display:inline-block;
+}
+    
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    padding: 0; 
+}    
+    
+.newsfeed_icon{
+    height:30px;
+    width:30px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px; 
+    margin-right: 20px; 
+}
+    
+.searchbar{
+    border:0;
+    border-color: darkgrey;
+    margin-left:300px;
+    height:28px;
+    width:160px;
+    margin-top: 13px; 
+    text-align: center; 
+    border-radius: 8%;
+    background-color:#F3F3F3
+}
+    
+.profilepic{
+    height:60px;
+    float:left;
+    width:60px;
+    border-radius:50%;
+    display:inline-block;
+}    
+    
+.price_desc{
+    font-size: 12px;
+    color: darkgrey;
+}    
+
+.price_amount{
+    font-size: 12px;
+    padding-right: 5px
+}    
+    
+.post_icon{
+    height:30px;
+    width:30px;
+    margin-right: 15px; 
+    display: inline-block;
+}    
